@@ -14,7 +14,7 @@ class NameRecyclerViewAdapter(var namesList: List<String>):
     RecyclerView.Adapter<NamesViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NamesViewHolder {
         val itemView = LayoutInflater.from(parent.context)
-            .inflate(R.layout.activity_mysalary,parent,false)
+            .inflate(R.layout.payment_list,parent,false)
         return NamesViewHolder(itemView)
     }
 
